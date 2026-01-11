@@ -1,0 +1,5 @@
+Using DOM + event listeners, create a counter with:
+● Increase button
+● Decrease button
+● Reset button
+The counter value should update on the screen.

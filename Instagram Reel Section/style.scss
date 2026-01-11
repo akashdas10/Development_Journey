@@ -1,0 +1,200 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #121212;
+}
+main {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+
+  section {
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    .reel-container {
+      height: 100%;
+      width: 100%;
+      max-width: 300px;
+      background-color: gray;
+      overflow-y: auto;
+      scroll-snap-type: y mandatory;
+      scroll-behavior: smooth;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+
+      .reel {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(orange, crimson, purple);
+        scroll-snap-align: start;
+
+        video {
+          height: 100%;
+          width: 100%;
+          object-fit: cover;
+        }
+
+        .all-details {
+          position: absolute;
+          bottom: 0;
+          display: flex;
+          flex-direction: column;
+          gap: 1rem;
+          width: 85%;
+          padding: 1rem;
+          background-color: transparent;
+
+          .user-details {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            cursor: pointer;
+
+            .profile {
+              gap: 0.5rem;
+              display: flex;
+              justify-content: space-between;
+              align-items: center;
+              height: 2.5rem;
+              width: 2.5rem;
+              border-radius: 50%;
+              object-fit: cover;
+              background-color: black;
+
+              img{
+                height: 100%;
+                width: 100%;
+                border-radius: 50%;
+                object-fit: cover;
+              }
+
+              span {
+                font-size: 0.8rem;
+                font-weight: 500;
+                color: white;
+                white-space: text;
+              }
+
+              .follow{
+                padding: 5px;
+                border-radius: 4px;
+                border: 2px solid white; 
+                text-decoration: none;
+                background-color: transparent;
+                color: white;
+                cursor: pointer;
+              }
+            }
+          }
+
+          p {
+            text-align: left;
+            font-size: 0.9rem;
+            color: white;
+          }
+        }
+        .actions {
+          position: absolute;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
+          align-items: center;
+          color: white;
+          background-color: transparent;
+          gap: 3rem;
+          padding: 0.5rem;
+          font-size: 2rem;
+          bottom: 0;
+          right: 0;
+          width: 15%;
+
+          >div h5{
+            pointer-events: none;
+          }
+
+          >div h6{
+            pointer-events: none;
+          }
+          .interraction-like{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            cursor: pointer;
+
+            h5{
+              .love{
+                color: red;
+              }
+            } 
+            
+            h6{
+              font-size: 1rem;
+            }
+          }
+
+          .interraction-comment{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            cursor: pointer;
+            
+            h6{
+              font-size: 1rem;
+            }
+          }
+
+          .interraction-share{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            white-space: nowrap;
+            cursor: pointer;
+            
+            h6{
+              font-size: 1rem;
+            }
+          }
+
+          .more{
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 431px) {
+  main {
+    padding: 0;
+    section {
+      width: 100%;
+      .reel-container {
+        max-width: 100%;
+        border-radius: 0;
+      }
+    }
+  }
+}

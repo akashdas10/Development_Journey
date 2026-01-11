@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+main img {
+  position: absolute;
+  bottom: 0;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=style.css.map */
