@@ -26,7 +26,7 @@ Most of these projects focus on:
 | Project                         | Description                                     | Live Demo      |
 | ------------------------------- | ----------------------------------------------- | -------------- |
 | Advance Sliding Effect on Hover | Navbar hover animation with sliding elements    | [View Demo](https://development-journey.vercel.app/) |
-| Advanced Animated Neon Effect   | Neon glow animation using CSS                   | [View Demo](#) |
+| Advanced Animated Neon Effect   | Neon glow animation using CSS                   | [View Demo](https://development-journey-jru2.vercel.app/) |
 | Downloading Effect              | Animated download progress effect               | [View Demo](#) |
 | Flexible Hovering Cards (SCSS)  | Interactive expanding cards                     | [View Demo](#) |
 | IPL Team Randomizer             | Random IPL team generator using JavaScript      | [View Demo](#) |
