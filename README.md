@@ -25,7 +25,7 @@ Most of these projects focus on:
 
 | Project                         | Description                                     | Live Demo      |
 | ------------------------------- | ----------------------------------------------- | -------------- |
-| Advance Sliding Effect on Hover | Card hover animation with sliding elements      | [View Demo](#) |
+| Advance Sliding Effect on Hover | Navbar hover animation with sliding elements    | [View Demo](https://development-journey.vercel.app/) |
 | Advanced Animated Neon Effect   | Neon glow animation using CSS                   | [View Demo](#) |
 | Downloading Effect              | Animated download progress effect               | [View Demo](#) |
 | Flexible Hovering Cards (SCSS)  | Interactive expanding cards                     | [View Demo](#) |
