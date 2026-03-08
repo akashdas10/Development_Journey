@@ -91,7 +91,28 @@ A browser-based piano where users can play notes using keyboard or mouse.
 * HTML5
 * CSS3
 * SCSS
-* JavaScript (Vanilla JS)
+* JavaScript
+
+---
+
+## 🌐 Live Project Demos
+
+| Project                         | Description                                     | Live Demo      |
+| ------------------------------- | ----------------------------------------------- | -------------- |
+| Advance Sliding Effect on Hover | Card hover animation with sliding elements      | [View Demo](#) |
+| Advanced Animated Neon Effect   | Neon glow animation using CSS                   | [View Demo](#) |
+| Downloading Effect              | Animated download progress effect               | [View Demo](#) |
+| Flexible Hovering Cards (SCSS)  | Interactive expanding cards                     | [View Demo](#) |
+| IPL Team Randomizer             | Random IPL team generator using JavaScript      | [View Demo](#) |
+| Instagram Like Effect           | Double tap like animation inspired by Instagram | [View Demo](#) |
+| Instagram Reel Section          | Instagram style reel UI layout                  | [View Demo](#) |
+| Matrix Text Effect              | Matrix style falling text animation             | [View Demo](#) |
+| Multilingual Name Display       | Display names in multiple languages             | [View Demo](#) |
+| Multiple Detailing Card with JS | Cards showing extra details on interaction      | [View Demo](#) |
+| Number Increment / Decrement    | JavaScript counter application                  | [View Demo](#) |
+| Responsiveness with SCSS        | Responsive layout practice                      | [View Demo](#) |
+| Spotlight Effect                | Cursor based spotlight hover animation          | [View Demo](#) |
+| Virtual Piano                   | Play piano notes using keyboard or mouse        | [View Demo](#) |
 
 ---
 
