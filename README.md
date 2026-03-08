@@ -12,80 +12,6 @@ Most of these projects focus on:
 
 ---
 
-# 📂 Projects in this Repository
-
-### 🎨 UI & Animation Projects
-
-#### 1. Advance Sliding Effect on Hover
-
-A UI card hover animation where elements slide smoothly when the user hovers over the component.
-
-#### 2. Advanced Animated Neon Effect
-
-A glowing neon style animation created using CSS effects and transitions.
-
-#### 3. Downloading Effect
-
-A visual animation simulating a downloading process using CSS and JavaScript.
-
-#### 4. Flexible Hovering Cards (SCSS)
-
-Interactive cards that expand and adjust layout dynamically on hover.
-
-#### 5. Matrix Text Effect
-
-A text animation inspired by the **Matrix movie style falling characters**.
-
-#### 6. Spotlight Effect
-
-A hover effect where a spotlight follows the cursor to highlight content.
-
----
-
-### 📱 UI Components & Interactive Elements
-
-#### 7. Instagram Like Effect
-
-Recreation of the Instagram double-tap like animation.
-
-#### 8. Instagram Reel Section
-
-A small UI section inspired by the Instagram reels layout.
-
-#### 9. Multiple Detailing Card with JavaScript
-
-Interactive cards that display additional details when clicked.
-
-#### 10. Responsiveness with SCSS
-
-Experiments with responsive layouts using SCSS media queries.
-
----
-
-### ⚙️ JavaScript Based Mini Projects
-
-#### 11. IPL Team Randomizer
-
-A small JavaScript project that randomly generates IPL teams.
-
-#### 12. Multilingual Name Display
-
-Displays names or text in multiple languages dynamically.
-
-#### 13. Number Increment / Decrement Button
-
-A counter application using JavaScript event handling.
-
----
-
-### 🎹 Fun Project
-
-#### 14. Virtual Piano
-
-A browser-based piano where users can play notes using keyboard or mouse.
-
----
-
 # 🛠 Technologies Used
 
 * HTML5
@@ -112,7 +38,7 @@ A browser-based piano where users can play notes using keyboard or mouse.
 | Number Increment / Decrement    | JavaScript counter application                  | [View Demo](#) |
 | Responsiveness with SCSS        | Responsive layout practice                      | [View Demo](#) |
 | Spotlight Effect                | Cursor based spotlight hover animation          | [View Demo](#) |
-| Virtual Piano                   | Play piano notes using keyboard or mouse        | [View Demo](#) |
+| Virtual Piano                   | Play piano notes using keyboard                 | [View Demo](#) |
 
 ---
 
